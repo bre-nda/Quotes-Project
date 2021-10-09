@@ -1,4 +1,5 @@
 export class Quote {
-constructor(public id : number , public quote : string, public author : string, public complateDate : Date){
+constructor( public id : number, public publisher : string, public description : string, public author : string, public completeDate : Date){
+    
 }
 }
