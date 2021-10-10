@@ -12,7 +12,8 @@
 <div class="container">
     <h1>Quote List</h1>
     <hr>
-    <p *ngFor='let quote of quotes'>
-        {{quote.description}}
-    </p>
+    <div *ngFor='let quote of quotes'>
+        <h5>{{quote.description}}</h5>
+        <p>{{quote.author}}</p>
+    </div>
 </div>
