@@ -15,9 +15,9 @@ export class AppComponent {
 
   // ];
   quotes:Quote[] = [
-    {id:1, name:'You only live once, but if you do it right, once is enough'},
-    {id:2,name:'If you want to live a happy life, tie to a goal, not people or things'},
-    {id:3,name:'Never let the fear of striking out keep you from playing the game'},
+    {id:1, description:'You only live once, but if you do it right, once is enough'},
+    {id:2,description:'If you want to live a happy life, tie to a goal, not people or things'},
+    {id:3,description:'Never let the fear of striking out keep you from playing the game'},
   
   ];
 }
