@@ -18,4 +18,7 @@
         <button (click)='toggleDetails(i)' class="btn btn-primary">Show Quote Details</button>
         <app-quote-detail *ngIf='quote.showPublisher' [quote]='quote' (isComplete)='deleteQuote ($event,i)'></app-quote-detail>
     </div>
+    <div class="col-md-6">
+        <app-goal-form></app-goal-form>
+    </div>
 </div>
