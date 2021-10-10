@@ -27,9 +27,19 @@ completeQuote(isComplete: any, index: number){
       this.quotes.splice(index,1);
     }
   }
+  deleteQuote(isComplete: any, index: number){
+    if (isComplete) {
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].description}?`)
+
+      if (toDelete){
+        this.quotes.splice(index,1)
+      }
+    }
+  }
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
