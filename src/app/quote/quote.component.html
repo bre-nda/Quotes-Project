@@ -14,8 +14,8 @@
     <hr>
     <div *ngFor='let quote of quotes; let i = index'>
         <h5>{{quote.description}}</h5>
-        <p>{{quote.author}}</p>
-        <button (click)='toggleDetails(i)' Toggle Details type="button" class="btn btn-primary">Show Quote Details</button>
+        <p><strong>{{quote.author}}</strong></p>
+        <button (click)='toggleDetails(i)' class="btn btn-primary">Show Quote Details</button>
         <app-quote-detail *ngIf='quote.showPublisher' [quote]='quote'></app-quote-detail>
     </div>
 </div>

@@ -1,6 +1,6 @@
 export class Quote {
     showPublisher:boolean
-     constructor   (id: number, description: string, author: string, publisher: string){
+     constructor(public id: number,public description: string, public author: string, public publisher: string){
          this.showPublisher = false;
      }
 
