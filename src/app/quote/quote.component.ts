@@ -13,9 +13,9 @@ export class QuoteComponent implements OnInit {
   //   new Quote (3, 'Ashley Livoga','Never let the fear of striking out keep you from playing the game','Babe Ruth',new Date(2020,9,16)),
   // ];
   quotes:Quote[] = [
-    {id:1, description:'You only live once, but if you do it right, once is enough', author:'Mae West', publisher:'Brenda Andeso'},
-    {id:2,description:'If you want to live a happy life, tie to a goal, not people or things',author: 'Albert Eintsen', publisher:'Collins Wasonga'},
-    {id:3,description:'Never let the fear of striking out keep you from playing the game',author:'Babe Ruth', publisher:'Ashley Liavoga'},
+  new Quote(1,'You only live once, but if you do it right, once is enough','Mae West','Brenda Andeso'),
+  new Quote(2,'If you want to live a happy life, tie to a goal, not people or things','Albert Eintsen','Collins Wasonga'),
+  new Quote(3,'Never let the fear of striking out keep you from playing the game','Babe Ruth','Ashley Liavoga'),
   
   ];
 
