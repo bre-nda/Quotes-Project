@@ -1,27 +1,44 @@
-# Quotes
+# Quote App Project
+This is a Quote App, 11/10/2021
+By Brenda Andeso
+## Description
+This is a Quote App project where by a user is given an opportunity to publish their own quotes.
+This app is built in such a way that the user will key in their name, the quote, the author of the quote and the date then after clicking the publish button, the users quote will be displayed at the published quotes together with the details.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## Setup/Installation Requirements
+Have a browser(Google Chrome)
 
-## Development server
+Have visual Studio Code
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Have Angular Cli installed
 
-## Code scaffolding
+Have TypeScript installed
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Read the short text before the form
 
-## Build
+If you want to clone this project, got to this link [here](https://github.com/bre-nda/Quotes-Project) Paste this url link to your Visual Studio Code and on your terminal , type : git clone(paste URL)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Known Bugs
+There are no known bugs.
 
-## Running unit tests
+## Technologies Used
+Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+TypeScript
 
-## Running end-to-end tests
+HTML 5
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+CSS
 
-## Further help
+### Support and contact details
+You can contact me at:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+E-MAIL ADDRESS: brendaandeso4@gmail.com
+
+PHONE:+254743495599
+
+### License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+#### Copyright
+Copyright (c) {2021} BRENDA ANDESO
