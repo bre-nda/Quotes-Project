@@ -14,16 +14,16 @@
     <hr>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div *ngFor='let quote of quotes; let i = index'>
+            <div class=" col-md-6">
+                <div *ngFor='let quote of quotes; let i = index' class="cards">
                     <h5>{{quote.description}}</h5>
                     <h6>{{quote.author}}</h6>
-                    <button (click)='toggleDetails(i)' class="btn btn-primary">Show Quote Details</button>
+                    <button (click)='toggleDetails(i)' class="btn btn-primary ">Show Quote Details</button>
                     <app-quote-detail *ngIf='quote.showPublisher' [quote]='quote' (isComplete)='deleteQuote ($event,i)'></app-quote-detail>
                 </div>
             </div>
-            <div class="col-md-6">
-                <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+            <div class="col-md-6 ">
+                <app-quote-form (addQuote)="addNewQuote($event) "></app-quote-form>
             </div>
         </div>
     </div>
