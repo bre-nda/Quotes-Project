@@ -4,19 +4,10 @@
     <form #quoteForm='ngForm'>
         <div class="form-group">
 
-            <label for="name">Name</label>
-            <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.description" name="name" #name='ngModel' required>
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                <p>Name is required</p>
-
-            </div>
-        </div>
-        <div class="form-group">
-
-            <label for="name">Author</label>
-            <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.description" name="name" #name='ngModel' required>
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                <p>Author is required</p>
+            <label for="publisher">Publisher</label>
+            <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.publisher" name="publisher" #publisher='ngModel' required>
+            <div [hidden]="publisher.valid || publisher.pristine" class="alert alert-danger">
+                <p>Publisher is required !!</p>
 
             </div>
         </div>
@@ -25,9 +16,18 @@
             <label for="description">Quote</label>
             <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
             <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
-                <p>Quote is required</p>
+                <p>Quote is required!!</p>
             </div>
 
+        </div>
+        <div class="form-group">
+
+            <label for="author">Author</label>
+            <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
+            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+                <p>Author is required!!</p>
+
+            </div>
         </div>
         <div class="form-group">
             <label for="complete">Published:</label><br>
