@@ -4,3 +4,7 @@
     margin-bottom: 2rem;
     border-radius: 30px;
 }
+
+.cards:hover {
+    box-shadow: 0 0 10px rgba(00, 00, 00, 0.6), 0 0 20px rgba(00, 00, 00, 0.6), 0 0 40px rgba(00, 00, 00, 0.6);
+}
